@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { View, Text } from "react-native";
 
-Class App extends Component => {
+class App extends Component {
   render(){
     return (
+      <View>
       <Text>an App</Text>
+      </View>
     );
   }
 }
